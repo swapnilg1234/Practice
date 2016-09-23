@@ -5,10 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class SimpleParameter {
-	@Test
+	
 	public void launchBrowser()
 	{
-		System.out.println("Inside First Test");
+		System.out.println("Inside First Tesjjkjt:::");
 		WebDriver driver=new ChromeDriver();
 		System.setProperty("webdriver.chrome.driver", "/Users/swapnil_galande/Documents/Drivers/chromedriver");
 		driver.get("http://www.gmail.com");
