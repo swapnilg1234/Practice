@@ -11,8 +11,8 @@ public class SimpleParameter {
 	public void launchBrowser()
 	{
 		System.out.println("Inside First Tesjjkjt:::");
-		WebDriver driver=new ChromeDriver();
 		System.setProperty("webdriver.chrome.driver", "/MavenPractice/src/test/resources/chromedriver");
+		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.gmail.com");
 		driver.quit();
 	}
