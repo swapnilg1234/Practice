@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 public class SimpleParameter {
 	
+	@Test
 	public void launchBrowser()
 	{
 		System.out.println("Inside First Tesjjkjt:::");
